@@ -22,4 +22,4 @@ you must reach a charging point before your battery completely drains!
 *   **Level Design:** Create more levels with different layouts and challenges.
 *   **Sound Effects & Music:** Add sound effects and background music to enhance the gameplay
 experience.
-*   **UI Improvements:** Improve the user interface to display battery level more clearly.
+*   **Working mobile phone:** Make the moblie phone mostly functional with apps and shit working
