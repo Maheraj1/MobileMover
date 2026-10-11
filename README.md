@@ -23,14 +23,3 @@ you must reach a charging point before your battery completely drains!
 *   **Sound Effects & Music:** Add sound effects and background music to enhance the gameplay
 experience.
 *   **UI Improvements:** Improve the user interface to display battery level more clearly.
-
-## Contributing
-
-We welcome contributions to this project! If you'd like to contribute, please:
-
-1.  Fork this repository.
-2.  Create a new branch for your changes: `git checkout -b your-feature-branch`
-3.  Make your changes.
-4.  Commit your changes: `git commit -m "Your descriptive commit message"`
-5.  Push your branch to your fork: `git push origin your-feature-branch`
-6.  Create a Pull Request.
