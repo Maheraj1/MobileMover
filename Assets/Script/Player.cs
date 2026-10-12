@@ -23,6 +23,8 @@ public class Player : MonoBehaviour, IDamageable {
     [SerializeField] private float maxCapacity = 100f;
     [Tooltip("Rate at which charge loss occur in % charge per N")]
     [SerializeField] private float chargeLossRate = .1f;
+    [Tooltip("Rate at which charge loss occur in % charge per N m")]
+    [SerializeField] private float chargeLossRateRotation = .1f;
     
     private Rigidbody2D _rb;
     [SerializeField] private int health = 200;
@@ -54,12 +56,14 @@ public class Player : MonoBehaviour, IDamageable {
     private void AddMovementForce(Vector2 move, bool useDeltaTime = false) {
         if (_charge <= 0f) return;
         Vector2 force = transform.right * (move.y * moveSpeed * (useDeltaTime ? Time.deltaTime : 1));
+        float torque = move.x * -rotateSpeed * (useDeltaTime ? Time.deltaTime : 1);
         _rb.AddForce(force, ForceMode2D.Impulse);
-        _rb.AddTorque(move.x * -rotateSpeed * (useDeltaTime ? Time.deltaTime : 1), 
-                        ForceMode2D.Impulse
-        );
+        _rb.AddTorque(torque, ForceMode2D.Impulse);
         
-        _charge = Mathf.Clamp(_charge - (chargeLossRate * force.magnitude), 0f, maxCapacity);
+        _charge = Mathf.Clamp(
+            _charge - (chargeLossRate * force.magnitude)
+                    - (chargeLossRateRotation * Mathf.Abs(torque)),
+            0f, maxCapacity);
         OnChargeChanged?.Invoke(this, new OnChargeChangedEventArgs {
             NewCharge = _charge
         });
