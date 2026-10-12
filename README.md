@@ -23,3 +23,9 @@ you must reach a charging point before your battery completely drains!
 *   **Sound Effects & Music:** Add sound effects and background music to enhance the gameplay
 experience.
 *   **Working mobile phone:** Make the moblie phone mostly functional with apps and shit working
+## Credits
+1. Maheraj Patel [Maheraj1](https://github.com/Maheraj1) Core mechanics and code
+2. Swar Shah [SSMASTER1001](https://github.com/SSMASTER1001) Art, Level design and ideation
+3. Tanisque Dixit [tanisquedixit](https://github.com/tanisquedixit) Art, Level design and ideation
+4. Sarthak Vatsal [vatsalgodhellaidiot](https://github.com/vatsalgodhellaidiot) Art & Level design
+5. Abhijeet Kasture [abhijeet2008-12](https://github.com/abhijeet2008-12) Art & Level design
