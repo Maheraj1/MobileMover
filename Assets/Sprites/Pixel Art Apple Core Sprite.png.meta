@@ -1,0 +1,1313 @@
+fileFormatVersion: 2
+guid: ebb46ff5db8e91c43aae5ae4984401df
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5030678331326617424
+    second: Pixel Art Apple Core Sprite_0
+  - first:
+      213: -1541125681344335316
+    second: Pixel Art Apple Core Sprite_1
+  - first:
+      213: -4098056451940988350
+    second: Pixel Art Apple Core Sprite_2
+  - first:
+      213: 9068449507970215350
+    second: Pixel Art Apple Core Sprite_3
+  - first:
+      213: -5035283490779457637
+    second: Pixel Art Apple Core Sprite_4
+  - first:
+      213: 160708751968490167
+    second: Pixel Art Apple Core Sprite_5
+  - first:
+      213: 111303490330134915
+    second: Pixel Art Apple Core Sprite_6
+  - first:
+      213: 3658578950067683518
+    second: Pixel Art Apple Core Sprite_7
+  - first:
+      213: -1158289632748952411
+    second: Pixel Art Apple Core Sprite_8
+  - first:
+      213: -36224208283229940
+    second: Pixel Art Apple Core Sprite_9
+  - first:
+      213: 558973222676216343
+    second: Pixel Art Apple Core Sprite_10
+  - first:
+      213: -5620712643457202556
+    second: Pixel Art Apple Core Sprite_11
+  - first:
+      213: 8851886693407164980
+    second: Pixel Art Apple Core Sprite_12
+  - first:
+      213: 8282943157971164009
+    second: Pixel Art Apple Core Sprite_13
+  - first:
+      213: -7956377149416887677
+    second: Pixel Art Apple Core Sprite_14
+  - first:
+      213: 1300294413880343088
+    second: Pixel Art Apple Core Sprite_15
+  - first:
+      213: -2340511908393185875
+    second: Pixel Art Apple Core Sprite_16
+  - first:
+      213: 3854094180054869274
+    second: Pixel Art Apple Core Sprite_17
+  - first:
+      213: 8588731083449210034
+    second: Pixel Art Apple Core Sprite_18
+  - first:
+      213: -4740406778998527702
+    second: Pixel Art Apple Core Sprite_19
+  - first:
+      213: 1415391653010513816
+    second: Pixel Art Apple Core Sprite_20
+  - first:
+      213: -6402914558607462418
+    second: Pixel Art Apple Core Sprite_21
+  - first:
+      213: 1670992764570785809
+    second: Pixel Art Apple Core Sprite_22
+  - first:
+      213: -6987201254145761288
+    second: Pixel Art Apple Core Sprite_23
+  - first:
+      213: 2493489377714485732
+    second: Pixel Art Apple Core Sprite_24
+  - first:
+      213: -2039792388248308201
+    second: Pixel Art Apple Core Sprite_25
+  - first:
+      213: -7169757703487432535
+    second: Pixel Art Apple Core Sprite_26
+  - first:
+      213: 6277254730729475713
+    second: Pixel Art Apple Core Sprite_27
+  - first:
+      213: -6151146601811467454
+    second: Pixel Art Apple Core Sprite_28
+  - first:
+      213: -6985715454699339704
+    second: Pixel Art Apple Core Sprite_29
+  - first:
+      213: 1139654257627151032
+    second: Pixel Art Apple Core Sprite_30
+  - first:
+      213: -7308047068995633779
+    second: Pixel Art Apple Core Sprite_31
+  - first:
+      213: 8620457418662775728
+    second: Pixel Art Apple Core Sprite_32
+  - first:
+      213: 5863551917669174885
+    second: Pixel Art Apple Core Sprite_33
+  - first:
+      213: -6123669640560068428
+    second: Pixel Art Apple Core Sprite_34
+  - first:
+      213: -7289280510332018897
+    second: Pixel Art Apple Core Sprite_35
+  - first:
+      213: 4211704606910347501
+    second: Pixel Art Apple Core Sprite_36
+  - first:
+      213: -7610118862181358903
+    second: Pixel Art Apple Core Sprite_37
+  - first:
+      213: 7022286272373686204
+    second: Pixel Art Apple Core Sprite_38
+  - first:
+      213: 1937639165047904152
+    second: Pixel Art Apple Core Sprite_39
+  - first:
+      213: -3651006583495421539
+    second: Pixel Art Apple Core Sprite_40
+  - first:
+      213: 6016820551480370724
+    second: Pixel Art Apple Core Sprite_41
+  - first:
+      213: -1676161572470013132
+    second: Pixel Art Apple Core Sprite_42
+  - first:
+      213: -2594516944047409621
+    second: Pixel Art Apple Core Sprite_43
+  - first:
+      213: 6646916184069545797
+    second: Pixel Art Apple Core Sprite_44
+  - first:
+      213: 8487580659591081636
+    second: Pixel Art Apple Core Sprite_45
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Pixel Art Apple Core Sprite_0
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 16
+        width: 1193
+        height: 1218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b8a50a16b07f2ab0800000000000000
+      internalID: -5030678331326617424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Apple Core Sprite_1
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 973
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c223d39ab52dc9ae0800000000000000
+      internalID: -1541125681344335316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Apple Core Sprite_2
+      rect:
+        serializedVersion: 2
+        x: 1019
+        y: 953
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24a4f809e57c027c0800000000000000
+      internalID: -4098056451940988350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Apple Core Sprite_3
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 881
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bd6122e7ca99dd70800000000000000
+      internalID: 9068449507970215350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Apple Core Sprite_4
+      rect:
+        serializedVersion: 2
+        x: 1091
+        y: 869
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9793bcd7541f1ab0800000000000000
+      internalID: -5035283490779457637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Apple Core Sprite_5
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 851
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b2d06922c3fa3200800000000000000
+      internalID: 160708751968490167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Apple Core Sprite_6
+      rect:
+        serializedVersion: 2
+        x: 1043
+        y: 823
+        width: 49
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 389836b4fed6b8100800000000000000
+      internalID: 111303490330134915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Apple Core Sprite_7
+      rect:
+        serializedVersion: 2
+        x: 1091
+        y: 831
+        width: 33
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb0818dcb22e5c230800000000000000
+      internalID: 3658578950067683518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Apple Core Sprite_8
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 833
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a42bf447bdecefe0800000000000000
+      internalID: -1158289632748952411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Apple Core Sprite_9
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 802
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c012205464e4f7ff0800000000000000
+      internalID: -36224208283229940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Apple Core Sprite_10
+      rect:
+        serializedVersion: 2
+        x: 1075
+        y: 771
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71a32983f2fd1c700800000000000000
+      internalID: 558973222676216343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Apple Core Sprite_11
+      rect:
+        serializedVersion: 2
+        x: 1053
+        y: 724
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 486cf2e61a73ff1b0800000000000000
+      internalID: -5620712643457202556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Apple Core Sprite_12
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 505
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43a8a806c0838da70800000000000000
+      internalID: 8851886693407164980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Apple Core Sprite_13
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 353
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96b9f91daece2f270800000000000000
+      internalID: 8282943157971164009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Apple Core Sprite_14
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 328
+        width: 9
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38aa8f52325459190800000000000000
+      internalID: -7956377149416887677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Apple Core Sprite_15
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 320
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03a33c251e29b0210800000000000000
+      internalID: 1300294413880343088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Apple Core Sprite_16
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 321
+        width: 13
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dad07a3e1d4d48fd0800000000000000
+      internalID: -2340511908393185875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Apple Core Sprite_17
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 322
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a152215ac3e7c7530800000000000000
+      internalID: 3854094180054869274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Apple Core Sprite_18
+      rect:
+        serializedVersion: 2
+        x: 1043
+        y: 310
+        width: 23
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b498545a6d413770800000000000000
+      internalID: 8588731083449210034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Apple Core Sprite_19
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 288
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2960f67621b63eb0800000000000000
+      internalID: -4740406778998527702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Apple Core Sprite_20
+      rect:
+        serializedVersion: 2
+        x: 1053
+        y: 287
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89f9eb7953b74a310800000000000000
+      internalID: 1415391653010513816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Apple Core Sprite_21
+      rect:
+        serializedVersion: 2
+        x: 1021
+        y: 232
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eef660f02274427a0800000000000000
+      internalID: -6402914558607462418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Apple Core Sprite_22
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 238
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1185d7ae01f803710800000000000000
+      internalID: 1670992764570785809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Apple Core Sprite_23
+      rect:
+        serializedVersion: 2
+        x: 1075
+        y: 232
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ff5a78aa79780f90800000000000000
+      internalID: -6987201254145761288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Apple Core Sprite_24
+      rect:
+        serializedVersion: 2
+        x: 1044
+        y: 192
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e9b1e1c067aa9220800000000000000
+      internalID: 2493489377714485732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Apple Core Sprite_25
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 77
+        width: 70
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 716f9e251a331b3e0800000000000000
+      internalID: -2039792388248308201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Apple Core Sprite_26
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 63
+        width: 46
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a8d20e0b57ef7c90800000000000000
+      internalID: -7169757703487432535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Apple Core Sprite_27
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 117
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18e45c55be94d1750800000000000000
+      internalID: 6277254730729475713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Apple Core Sprite_28
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 103
+        width: 13
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2432dad71ccb2aaa0800000000000000
+      internalID: -6151146601811467454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Apple Core Sprite_29
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 101
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84080bc4ec0cd0f90800000000000000
+      internalID: -6985715454699339704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Apple Core Sprite_30
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 79
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bab0a8528dd0df00800000000000000
+      internalID: 1139654257627151032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Apple Core Sprite_31
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 15
+        width: 40
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8d3ea219e9949a90800000000000000
+      internalID: -7308047068995633779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Apple Core Sprite_32
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 63
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bb86c0695402a770800000000000000
+      internalID: 8620457418662775728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Apple Core Sprite_33
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 63
+        width: 13
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56e4bb617658f5150800000000000000
+      internalID: 5863551917669174885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Apple Core Sprite_34
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 72
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b8b29018ea540ba0800000000000000
+      internalID: -6123669640560068428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Apple Core Sprite_35
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 61
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2f5b710ff547da90800000000000000
+      internalID: -7289280510332018897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Apple Core Sprite_36
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 63
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de874c1860bf27a30800000000000000
+      internalID: 4211704606910347501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Apple Core Sprite_37
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 23
+        width: 57
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c22e29073d636690800000000000000
+      internalID: -7610118862181358903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Apple Core Sprite_38
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 63
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbf7fe7b82c247160800000000000000
+      internalID: 7022286272373686204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Apple Core Sprite_39
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 30
+        width: 36
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8979097fd80e3ea10800000000000000
+      internalID: 1937639165047904152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Apple Core Sprite_40
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 53
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d91942e2bd4055dc0800000000000000
+      internalID: -3651006583495421539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Apple Core Sprite_41
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 40
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 426e140c96a008350800000000000000
+      internalID: 6016820551480370724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Apple Core Sprite_42
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 32
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 433c3c63ee31db8e0800000000000000
+      internalID: -1676161572470013132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Apple Core Sprite_43
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 31
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b267252f59c6efbd0800000000000000
+      internalID: -2594516944047409621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Apple Core Sprite_44
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 15
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54f92437d079e3c50800000000000000
+      internalID: 6646916184069545797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Apple Core Sprite_45
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 12
+        width: 59
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4aee66904a1f9c570800000000000000
+      internalID: 8487580659591081636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Pixel Art Apple Core Sprite_0: -5030678331326617424
+      Pixel Art Apple Core Sprite_1: -1541125681344335316
+      Pixel Art Apple Core Sprite_10: 558973222676216343
+      Pixel Art Apple Core Sprite_11: -5620712643457202556
+      Pixel Art Apple Core Sprite_12: 8851886693407164980
+      Pixel Art Apple Core Sprite_13: 8282943157971164009
+      Pixel Art Apple Core Sprite_14: -7956377149416887677
+      Pixel Art Apple Core Sprite_15: 1300294413880343088
+      Pixel Art Apple Core Sprite_16: -2340511908393185875
+      Pixel Art Apple Core Sprite_17: 3854094180054869274
+      Pixel Art Apple Core Sprite_18: 8588731083449210034
+      Pixel Art Apple Core Sprite_19: -4740406778998527702
+      Pixel Art Apple Core Sprite_2: -4098056451940988350
+      Pixel Art Apple Core Sprite_20: 1415391653010513816
+      Pixel Art Apple Core Sprite_21: -6402914558607462418
+      Pixel Art Apple Core Sprite_22: 1670992764570785809
+      Pixel Art Apple Core Sprite_23: -6987201254145761288
+      Pixel Art Apple Core Sprite_24: 2493489377714485732
+      Pixel Art Apple Core Sprite_25: -2039792388248308201
+      Pixel Art Apple Core Sprite_26: -7169757703487432535
+      Pixel Art Apple Core Sprite_27: 6277254730729475713
+      Pixel Art Apple Core Sprite_28: -6151146601811467454
+      Pixel Art Apple Core Sprite_29: -6985715454699339704
+      Pixel Art Apple Core Sprite_3: 9068449507970215350
+      Pixel Art Apple Core Sprite_30: 1139654257627151032
+      Pixel Art Apple Core Sprite_31: -7308047068995633779
+      Pixel Art Apple Core Sprite_32: 8620457418662775728
+      Pixel Art Apple Core Sprite_33: 5863551917669174885
+      Pixel Art Apple Core Sprite_34: -6123669640560068428
+      Pixel Art Apple Core Sprite_35: -7289280510332018897
+      Pixel Art Apple Core Sprite_36: 4211704606910347501
+      Pixel Art Apple Core Sprite_37: -7610118862181358903
+      Pixel Art Apple Core Sprite_38: 7022286272373686204
+      Pixel Art Apple Core Sprite_39: 1937639165047904152
+      Pixel Art Apple Core Sprite_4: -5035283490779457637
+      Pixel Art Apple Core Sprite_40: -3651006583495421539
+      Pixel Art Apple Core Sprite_41: 6016820551480370724
+      Pixel Art Apple Core Sprite_42: -1676161572470013132
+      Pixel Art Apple Core Sprite_43: -2594516944047409621
+      Pixel Art Apple Core Sprite_44: 6646916184069545797
+      Pixel Art Apple Core Sprite_45: 8487580659591081636
+      Pixel Art Apple Core Sprite_5: 160708751968490167
+      Pixel Art Apple Core Sprite_6: 111303490330134915
+      Pixel Art Apple Core Sprite_7: 3658578950067683518
+      Pixel Art Apple Core Sprite_8: -1158289632748952411
+      Pixel Art Apple Core Sprite_9: -36224208283229940
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

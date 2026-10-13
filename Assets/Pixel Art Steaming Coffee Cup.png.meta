@@ -1,0 +1,559 @@
+fileFormatVersion: 2
+guid: 4c67265669090a5448f0cbb3a3f8abc0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3083371978770965747
+    second: Pixel Art Steaming Coffee Cup_0
+  - first:
+      213: 3192081859584808162
+    second: Pixel Art Steaming Coffee Cup_1
+  - first:
+      213: 5297552745243881768
+    second: Pixel Art Steaming Coffee Cup_2
+  - first:
+      213: 1546714153366305577
+    second: Pixel Art Steaming Coffee Cup_3
+  - first:
+      213: 5563122521797556842
+    second: Pixel Art Steaming Coffee Cup_4
+  - first:
+      213: 7842880263119228780
+    second: Pixel Art Steaming Coffee Cup_5
+  - first:
+      213: 8569097360343435594
+    second: Pixel Art Steaming Coffee Cup_6
+  - first:
+      213: -6901501973732845531
+    second: Pixel Art Steaming Coffee Cup_7
+  - first:
+      213: 8948248390304953396
+    second: Pixel Art Steaming Coffee Cup_8
+  - first:
+      213: 5106330532606547733
+    second: Pixel Art Steaming Coffee Cup_9
+  - first:
+      213: -5724487582132005814
+    second: Pixel Art Steaming Coffee Cup_10
+  - first:
+      213: 8378897667845571658
+    second: Pixel Art Steaming Coffee Cup_11
+  - first:
+      213: 5890899557416696010
+    second: Pixel Art Steaming Coffee Cup_12
+  - first:
+      213: -2207700387608084195
+    second: Pixel Art Steaming Coffee Cup_13
+  - first:
+      213: 4237868063119123875
+    second: Pixel Art Steaming Coffee Cup_14
+  - first:
+      213: 6261237054488496888
+    second: Pixel Art Steaming Coffee Cup_15
+  - first:
+      213: -909153718050181886
+    second: Pixel Art Steaming Coffee Cup_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Pixel Art Steaming Coffee Cup_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1241
+        height: 1254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f469017a765aca20800000000000000
+      internalID: 3083371978770965747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Steaming Coffee Cup_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 991
+        width: 176
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e45586f98d8c4c20800000000000000
+      internalID: 3192081859584808162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Steaming Coffee Cup_2
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 811
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82138277720b48940800000000000000
+      internalID: 5297552745243881768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Steaming Coffee Cup_3
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 809
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92bb770e358077510800000000000000
+      internalID: 1546714153366305577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Steaming Coffee Cup_4
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 746
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6af7b9757e243d40800000000000000
+      internalID: 5563122521797556842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Steaming Coffee Cup_5
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 746
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6fc423cb0287dc60800000000000000
+      internalID: 7842880263119228780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Steaming Coffee Cup_6
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 676
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a490201f5ac8be670800000000000000
+      internalID: 8569097360343435594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Steaming Coffee Cup_7
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 660
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5281ff64580f830a0800000000000000
+      internalID: -6901501973732845531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Steaming Coffee Cup_8
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 606
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 434761a40809e2c70800000000000000
+      internalID: 8948248390304953396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Steaming Coffee Cup_9
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 593
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5179ebd90945dd640800000000000000
+      internalID: 5106330532606547733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Steaming Coffee Cup_10
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 594
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4413e9afd88e80b0800000000000000
+      internalID: -5724487582132005814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Steaming Coffee Cup_11
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 546
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a44c84d1903d74470800000000000000
+      internalID: 8378897667845571658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Steaming Coffee Cup_12
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 505
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac8f357afeda0c150800000000000000
+      internalID: 5890899557416696010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Steaming Coffee Cup_13
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 119
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d11c022c13cac51e0800000000000000
+      internalID: -2207700387608084195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Steaming Coffee Cup_14
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 0
+        width: 54
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a5203bdc8eefca30800000000000000
+      internalID: 4237868063119123875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Steaming Coffee Cup_15
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 0
+        width: 185
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8facc477de164e650800000000000000
+      internalID: 6261237054488496888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Art Steaming Coffee Cup_16
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 7
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20da465a2890263f0800000000000000
+      internalID: -909153718050181886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Pixel Art Steaming Coffee Cup_0: 3083371978770965747
+      Pixel Art Steaming Coffee Cup_1: 3192081859584808162
+      Pixel Art Steaming Coffee Cup_10: -5724487582132005814
+      Pixel Art Steaming Coffee Cup_11: 8378897667845571658
+      Pixel Art Steaming Coffee Cup_12: 5890899557416696010
+      Pixel Art Steaming Coffee Cup_13: -2207700387608084195
+      Pixel Art Steaming Coffee Cup_14: 4237868063119123875
+      Pixel Art Steaming Coffee Cup_15: 6261237054488496888
+      Pixel Art Steaming Coffee Cup_16: -909153718050181886
+      Pixel Art Steaming Coffee Cup_2: 5297552745243881768
+      Pixel Art Steaming Coffee Cup_3: 1546714153366305577
+      Pixel Art Steaming Coffee Cup_4: 5563122521797556842
+      Pixel Art Steaming Coffee Cup_5: 7842880263119228780
+      Pixel Art Steaming Coffee Cup_6: 8569097360343435594
+      Pixel Art Steaming Coffee Cup_7: -6901501973732845531
+      Pixel Art Steaming Coffee Cup_8: 8948248390304953396
+      Pixel Art Steaming Coffee Cup_9: 5106330532606547733
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
