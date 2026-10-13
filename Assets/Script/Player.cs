@@ -61,7 +61,8 @@ public class Player : MonoBehaviour, IDamageable {
         _rb = GetComponent<Rigidbody2D>();
         // InputManager.instance.OnMovePressed += InstanceOnOnMovePressed_Handler;
         InputManager.instance.OnFlashPressed += (sender, args) => {
-            flashLight.SetActive(!flashLight.activeSelf);
+            if (flashLight)
+                flashLight.SetActive(!flashLight.activeSelf);
         };
     }
 
