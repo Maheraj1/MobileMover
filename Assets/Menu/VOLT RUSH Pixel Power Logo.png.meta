@@ -1,0 +1,1079 @@
+fileFormatVersion: 2
+guid: 55b95aa198e404343b2991b00cabd8c7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2231947531935605480
+    second: VOLT RUSH Pixel Power Logo_0
+  - first:
+      213: 7869367595856736915
+    second: VOLT RUSH Pixel Power Logo_1
+  - first:
+      213: 2889194354897576405
+    second: VOLT RUSH Pixel Power Logo_2
+  - first:
+      213: 5865996109285333973
+    second: VOLT RUSH Pixel Power Logo_3
+  - first:
+      213: -3977731212158687601
+    second: VOLT RUSH Pixel Power Logo_4
+  - first:
+      213: -4158041465379074429
+    second: VOLT RUSH Pixel Power Logo_5
+  - first:
+      213: -1328435781885828194
+    second: VOLT RUSH Pixel Power Logo_6
+  - first:
+      213: -1441421127591197861
+    second: VOLT RUSH Pixel Power Logo_7
+  - first:
+      213: -335261709843160084
+    second: VOLT RUSH Pixel Power Logo_8
+  - first:
+      213: 7274973315238133849
+    second: VOLT RUSH Pixel Power Logo_9
+  - first:
+      213: -4812176078358611315
+    second: VOLT RUSH Pixel Power Logo_10
+  - first:
+      213: -2164199618824156124
+    second: VOLT RUSH Pixel Power Logo_11
+  - first:
+      213: -8395319592896841489
+    second: VOLT RUSH Pixel Power Logo_12
+  - first:
+      213: 7596365383026685794
+    second: VOLT RUSH Pixel Power Logo_13
+  - first:
+      213: 5119618465017882845
+    second: VOLT RUSH Pixel Power Logo_14
+  - first:
+      213: 2272610973821236597
+    second: VOLT RUSH Pixel Power Logo_15
+  - first:
+      213: 7417954280274814356
+    second: VOLT RUSH Pixel Power Logo_16
+  - first:
+      213: -1085641435930549375
+    second: VOLT RUSH Pixel Power Logo_17
+  - first:
+      213: -5769526266491397528
+    second: VOLT RUSH Pixel Power Logo_18
+  - first:
+      213: -5756192830831254131
+    second: VOLT RUSH Pixel Power Logo_19
+  - first:
+      213: 8850833696752084037
+    second: VOLT RUSH Pixel Power Logo_20
+  - first:
+      213: -539871037117044547
+    second: VOLT RUSH Pixel Power Logo_21
+  - first:
+      213: 1538229656388742439
+    second: VOLT RUSH Pixel Power Logo_22
+  - first:
+      213: 5840687793170293452
+    second: VOLT RUSH Pixel Power Logo_23
+  - first:
+      213: -3124769747290481884
+    second: VOLT RUSH Pixel Power Logo_24
+  - first:
+      213: 7672545886339275444
+    second: VOLT RUSH Pixel Power Logo_25
+  - first:
+      213: 2438236137400098802
+    second: VOLT RUSH Pixel Power Logo_26
+  - first:
+      213: -5632455848367166398
+    second: VOLT RUSH Pixel Power Logo_27
+  - first:
+      213: -7070799668037937770
+    second: VOLT RUSH Pixel Power Logo_28
+  - first:
+      213: -7070676126242849520
+    second: VOLT RUSH Pixel Power Logo_29
+  - first:
+      213: -6023491927548753529
+    second: VOLT RUSH Pixel Power Logo_30
+  - first:
+      213: 109489935208202596
+    second: VOLT RUSH Pixel Power Logo_31
+  - first:
+      213: 8711447133883340242
+    second: VOLT RUSH Pixel Power Logo_32
+  - first:
+      213: -5608223987863960785
+    second: VOLT RUSH Pixel Power Logo_33
+  - first:
+      213: -6260568391478373766
+    second: VOLT RUSH Pixel Power Logo_34
+  - first:
+      213: -7811044692085320191
+    second: VOLT RUSH Pixel Power Logo_35
+  - first:
+      213: -3176255220805152390
+    second: VOLT RUSH Pixel Power Logo_36
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: VOLT RUSH Pixel Power Logo_0
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 0
+        width: 1900
+        height: 764
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e2e456747879fe10800000000000000
+      internalID: 2231947531935605480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VOLT RUSH Pixel Power Logo_1
+      rect:
+        serializedVersion: 2
+        x: 1645
+        y: 757
+        width: 26
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 392b20e722c953d60800000000000000
+      internalID: 7869367595856736915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VOLT RUSH Pixel Power Logo_2
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 692
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d1ebba45fa781820800000000000000
+      internalID: 2889194354897576405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VOLT RUSH Pixel Power Logo_3
+      rect:
+        serializedVersion: 2
+        x: 1151
+        y: 676
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5db96cbc164386150800000000000000
+      internalID: 5865996109285333973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VOLT RUSH Pixel Power Logo_4
+      rect:
+        serializedVersion: 2
+        x: 1181
+        y: 672
+        width: 11
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f862c4799824cc8c0800000000000000
+      internalID: -3977731212158687601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VOLT RUSH Pixel Power Logo_5
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 674
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38e4cb6415bab46c0800000000000000
+      internalID: -4158041465379074429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VOLT RUSH Pixel Power Logo_6
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 674
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e93e6c9d1b2709de0800000000000000
+      internalID: -1328435781885828194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VOLT RUSH Pixel Power Logo_7
+      rect:
+        serializedVersion: 2
+        x: 1141
+        y: 680
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b530f261f1b0ffbe0800000000000000
+      internalID: -1441421127591197861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VOLT RUSH Pixel Power Logo_8
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 674
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce3220e4049e85bf0800000000000000
+      internalID: -335261709843160084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VOLT RUSH Pixel Power Logo_9
+      rect:
+        serializedVersion: 2
+        x: 1173
+        y: 680
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 950073d8fa5e5f460800000000000000
+      internalID: 7274973315238133849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VOLT RUSH Pixel Power Logo_10
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 666
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8a7dcc4a57b73db0800000000000000
+      internalID: -4812176078358611315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VOLT RUSH Pixel Power Logo_11
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 670
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42c43f0c9e737f1e0800000000000000
+      internalID: -2164199618824156124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VOLT RUSH Pixel Power Logo_12
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 541
+        width: 121
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe8b1818f45dd7b80800000000000000
+      internalID: -8395319592896841489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VOLT RUSH Pixel Power Logo_13
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 644
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 267316f8116bb6960800000000000000
+      internalID: 7596365383026685794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VOLT RUSH Pixel Power Logo_14
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 650
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd8ebe87ed98c0740800000000000000
+      internalID: 5119618465017882845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VOLT RUSH Pixel Power Logo_15
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 648
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 575f44fc3afe98f10800000000000000
+      internalID: 2272610973821236597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VOLT RUSH Pixel Power Logo_16
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 644
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4956edbad1ed1f660800000000000000
+      internalID: 7417954280274814356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VOLT RUSH Pixel Power Logo_17
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 618
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1832ae1bdd60fe0f0800000000000000
+      internalID: -1085641435930549375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VOLT RUSH Pixel Power Logo_18
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 630
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86a9e7bcd668eefa0800000000000000
+      internalID: -5769526266491397528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VOLT RUSH Pixel Power Logo_19
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 624
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8527a33e15ed10b0800000000000000
+      internalID: -5756192830831254131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VOLT RUSH Pixel Power Logo_20
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 628
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54427fc7a5a74da70800000000000000
+      internalID: 8850833696752084037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VOLT RUSH Pixel Power Logo_21
+      rect:
+        serializedVersion: 2
+        x: 1151
+        y: 628
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db8ed10f62ef188f0800000000000000
+      internalID: -539871037117044547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VOLT RUSH Pixel Power Logo_22
+      rect:
+        serializedVersion: 2
+        x: 1157
+        y: 628
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72da50cf8b3e85510800000000000000
+      internalID: 1538229656388742439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VOLT RUSH Pixel Power Logo_23
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 621
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc220e34a9a4e0150800000000000000
+      internalID: 5840687793170293452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VOLT RUSH Pixel Power Logo_24
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 618
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42b1dd7787692a4d0800000000000000
+      internalID: -3124769747290481884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VOLT RUSH Pixel Power Logo_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 578
+        width: 59
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ba132e25db5a7a60800000000000000
+      internalID: 7672545886339275444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VOLT RUSH Pixel Power Logo_26
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 77
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ffd04049da56d120800000000000000
+      internalID: 2438236137400098802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VOLT RUSH Pixel Power Logo_27
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 85
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24ce0097f3f75d1b0800000000000000
+      internalID: -5632455848367166398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VOLT RUSH Pixel Power Logo_28
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 79
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69516a42a297fdd90800000000000000
+      internalID: -7070799668037937770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VOLT RUSH Pixel Power Logo_29
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 71
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01db5757689efdd90800000000000000
+      internalID: -7070676126242849520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VOLT RUSH Pixel Power Logo_30
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 39
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78906077102486ca0800000000000000
+      internalID: -6023491927548753529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VOLT RUSH Pixel Power Logo_31
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 45
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 461c096148cf48100800000000000000
+      internalID: 109489935208202596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VOLT RUSH Pixel Power Logo_32
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 35
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d516b6530745e870800000000000000
+      internalID: 8711447133883340242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VOLT RUSH Pixel Power Logo_33
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 34
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f234b862ff59b22b0800000000000000
+      internalID: -5608223987863960785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VOLT RUSH Pixel Power Logo_34
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 37
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7294e5c73efd19a0800000000000000
+      internalID: -6260568391478373766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VOLT RUSH Pixel Power Logo_35
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 33
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 106dd8bbc38999390800000000000000
+      internalID: -7811044692085320191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VOLT RUSH Pixel Power Logo_36
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 15
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a71dde784bcabe3d0800000000000000
+      internalID: -3176255220805152390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      VOLT RUSH Pixel Power Logo_0: 2231947531935605480
+      VOLT RUSH Pixel Power Logo_1: 7869367595856736915
+      VOLT RUSH Pixel Power Logo_10: -4812176078358611315
+      VOLT RUSH Pixel Power Logo_11: -2164199618824156124
+      VOLT RUSH Pixel Power Logo_12: -8395319592896841489
+      VOLT RUSH Pixel Power Logo_13: 7596365383026685794
+      VOLT RUSH Pixel Power Logo_14: 5119618465017882845
+      VOLT RUSH Pixel Power Logo_15: 2272610973821236597
+      VOLT RUSH Pixel Power Logo_16: 7417954280274814356
+      VOLT RUSH Pixel Power Logo_17: -1085641435930549375
+      VOLT RUSH Pixel Power Logo_18: -5769526266491397528
+      VOLT RUSH Pixel Power Logo_19: -5756192830831254131
+      VOLT RUSH Pixel Power Logo_2: 2889194354897576405
+      VOLT RUSH Pixel Power Logo_20: 8850833696752084037
+      VOLT RUSH Pixel Power Logo_21: -539871037117044547
+      VOLT RUSH Pixel Power Logo_22: 1538229656388742439
+      VOLT RUSH Pixel Power Logo_23: 5840687793170293452
+      VOLT RUSH Pixel Power Logo_24: -3124769747290481884
+      VOLT RUSH Pixel Power Logo_25: 7672545886339275444
+      VOLT RUSH Pixel Power Logo_26: 2438236137400098802
+      VOLT RUSH Pixel Power Logo_27: -5632455848367166398
+      VOLT RUSH Pixel Power Logo_28: -7070799668037937770
+      VOLT RUSH Pixel Power Logo_29: -7070676126242849520
+      VOLT RUSH Pixel Power Logo_3: 5865996109285333973
+      VOLT RUSH Pixel Power Logo_30: -6023491927548753529
+      VOLT RUSH Pixel Power Logo_31: 109489935208202596
+      VOLT RUSH Pixel Power Logo_32: 8711447133883340242
+      VOLT RUSH Pixel Power Logo_33: -5608223987863960785
+      VOLT RUSH Pixel Power Logo_34: -6260568391478373766
+      VOLT RUSH Pixel Power Logo_35: -7811044692085320191
+      VOLT RUSH Pixel Power Logo_36: -3176255220805152390
+      VOLT RUSH Pixel Power Logo_4: -3977731212158687601
+      VOLT RUSH Pixel Power Logo_5: -4158041465379074429
+      VOLT RUSH Pixel Power Logo_6: -1328435781885828194
+      VOLT RUSH Pixel Power Logo_7: -1441421127591197861
+      VOLT RUSH Pixel Power Logo_8: -335261709843160084
+      VOLT RUSH Pixel Power Logo_9: 7274973315238133849
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
