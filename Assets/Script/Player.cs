@@ -54,10 +54,10 @@ public class Player : MonoBehaviour, IDamageable {
         }
 
         Instance = this;
-        GameManager.Instance.RegisterPlayer(this);
     }
     
     void Start() {
+        GameManager.Instance.RegisterPlayer(this);
         _rb = GetComponent<Rigidbody2D>();
         // InputManager.instance.OnMovePressed += InstanceOnOnMovePressed_Handler;
         InputManager.instance.OnFlashPressed += (sender, args) => {

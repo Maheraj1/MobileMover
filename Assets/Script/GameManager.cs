@@ -18,7 +18,7 @@ public class GameManager : MonoBehaviour {
         Instance = this;
         DontDestroyOnLoad(gameObject);
     }
-
+    
     void Start() {
         _player.OnStateChanged += OnStateChanged_Handler;
     }
