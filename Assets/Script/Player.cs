@@ -16,6 +16,8 @@ public class Player : MonoBehaviour, IDamageable {
     public class OnChargeChangedEventArgs : EventArgs {
         public float NewCharge;
     }
+
+    [SerializeField] private GameObject flashLight;
     
     [Header("Movement Settings")]
     [Tooltip("Move speed of the player in m/s")]
@@ -58,6 +60,9 @@ public class Player : MonoBehaviour, IDamageable {
     void Start() {
         _rb = GetComponent<Rigidbody2D>();
         // InputManager.instance.OnMovePressed += InstanceOnOnMovePressed_Handler;
+        InputManager.instance.OnFlashPressed += (sender, args) => {
+            flashLight.SetActive(!flashLight.activeSelf);
+        };
     }
 
     private void InstanceOnOnMovePressed_Handler(object sender, InputManager.OnMovePressedEventArgs e) {
@@ -65,25 +70,30 @@ public class Player : MonoBehaviour, IDamageable {
     }
 
     private void Update() {
-        if (_charge > 20) {
-            if (_state != State.Normal) OnStateChanged?.Invoke(this, new OnStateChangedEventArgs {
-                state = State.Normal
-            });
-            _state = State.Normal;            
+        switch (_charge) {
+            case > 20: {
+                if (_state != State.Normal) OnStateChanged?.Invoke(this, new OnStateChangedEventArgs {
+                    state = State.Normal
+                });
+                _state = State.Normal;
+                break;
+            }
+            case <= 10: {
+                if (_state != State.VeryLowPower) OnStateChanged?.Invoke(this, new OnStateChangedEventArgs {
+                    state = State.VeryLowPower
+                });
+                _state = State.VeryLowPower;
+                break;
+            }
+            default: {
+                if (_state != State.LowPower) OnStateChanged?.Invoke(this, new OnStateChangedEventArgs {
+                    state = State.LowPower
+                });
+                _state = State.LowPower;
+                break;
+            }
         }
-        else if (_charge <= 10) {
-            if (_state != State.VeryLowPower) OnStateChanged?.Invoke(this, new OnStateChangedEventArgs {
-                state = State.VeryLowPower
-            });
-            _state = State.VeryLowPower;
-        }
-        else {
-            if (_state != State.LowPower) OnStateChanged?.Invoke(this, new OnStateChangedEventArgs {
-                state = State.LowPower
-            });
-            _state = State.LowPower;
-        }
-        
+
         AddMovementForce(InputManager.instance.ReadMove(), true);
     }
 

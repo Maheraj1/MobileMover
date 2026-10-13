@@ -4,7 +4,8 @@ using UnityEngine.InputSystem;
 
 public class InputManager : MonoBehaviour {
     public static InputManager instance;
-    public event EventHandler<OnMovePressedEventArgs> OnMovePressed; 
+    public event EventHandler<OnMovePressedEventArgs> OnMovePressed;
+    public event EventHandler<EventArgs> OnFlashPressed;
     private InputSystem_Actions _actions;
 
     public class OnMovePressedEventArgs : EventArgs {
@@ -21,6 +22,11 @@ public class InputManager : MonoBehaviour {
         _actions = new InputSystem_Actions();
         _actions.Player.Enable();
         _actions.Player.Move.started += MoveOnstarted_Handler;
+        _actions.Player.Flash.started += OnFlash_Handler;
+    }
+
+    private void OnFlash_Handler(InputAction.CallbackContext obj) {
+        OnFlashPressed?.Invoke(this, EventArgs.Empty);
     }
 
     private void MoveOnstarted_Handler(InputAction.CallbackContext obj) {
