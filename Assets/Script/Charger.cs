@@ -5,7 +5,8 @@ public class Charger : MonoBehaviour {
     [SerializeField] private float chargingSpeed;
     bool _isCharging = false;
     void Update() {
-        Player.Instance.Charge(chargingSpeed * Time.deltaTime);
+        if (_isCharging)
+            Player.Instance.Charge(chargingSpeed * Time.deltaTime);
     }
 
     void OnTriggerEnter2D(Collider2D other) {
@@ -16,7 +17,7 @@ public class Charger : MonoBehaviour {
     
     void OnTriggerExit2D(Collider2D other) {
         if (other.gameObject.layer == LayerMask.NameToLayer("Player")) {
-            _isCharging = true;
+            _isCharging = false;
         }
     }
 }

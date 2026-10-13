@@ -7,6 +7,11 @@ public class Player : MonoBehaviour, IDamageable {
     public event EventHandler<IDamageable.OnDamageTakenEventArgs> OnDamageTaken;
     public event EventHandler<EventArgs> OnDie;
     public event EventHandler<OnChargeChangedEventArgs> OnChargeChanged;
+    public event EventHandler<OnStateChangedEventArgs> OnStateChanged;
+
+    public class OnStateChangedEventArgs : EventArgs {
+        public State state;
+    }
 
     public class OnChargeChangedEventArgs : EventArgs {
         public float NewCharge;
@@ -25,11 +30,20 @@ public class Player : MonoBehaviour, IDamageable {
     [SerializeField] private float chargeLossRate = .1f;
     [Tooltip("Rate at which charge loss occur in % charge per N m")]
     [SerializeField] private float chargeLossRateRotation = .1f;
+    [Tooltip("How much fraction of loss will be reduced in movement")]
+    [SerializeField] private float lowPowerLossDebuff = .1f;
     
     private Rigidbody2D _rb;
     [SerializeField] private int health = 200;
     private IDamageable _damageableImplementation;
     private float _charge = 100f;
+
+    public enum State {
+        Normal,     // 100 - 80 % battery
+        LowPower,   // 20 - 10  % battery
+        VeryLowPower// 10       % battery
+    }
+    private State _state = State.Normal;
 
     void Awake() {
         if (Instance != null) {
@@ -38,6 +52,7 @@ public class Player : MonoBehaviour, IDamageable {
         }
 
         Instance = this;
+        GameManager.Instance.RegisterPlayer(this);
     }
     
     void Start() {
@@ -50,13 +65,35 @@ public class Player : MonoBehaviour, IDamageable {
     }
 
     private void Update() {
+        if (_charge > 20) {
+            if (_state != State.Normal) OnStateChanged?.Invoke(this, new OnStateChangedEventArgs {
+                state = State.Normal
+            });
+            _state = State.Normal;            
+        }
+        else if (_charge <= 10) {
+            if (_state != State.VeryLowPower) OnStateChanged?.Invoke(this, new OnStateChangedEventArgs {
+                state = State.VeryLowPower
+            });
+            _state = State.VeryLowPower;
+        }
+        else {
+            if (_state != State.LowPower) OnStateChanged?.Invoke(this, new OnStateChangedEventArgs {
+                state = State.LowPower
+            });
+            _state = State.LowPower;
+        }
+        
         AddMovementForce(InputManager.instance.ReadMove(), true);
     }
 
     private void AddMovementForce(Vector2 move, bool useDeltaTime = false) {
         if (_charge <= 0f) return;
-        Vector2 force = transform.right * (move.y * moveSpeed * (useDeltaTime ? Time.deltaTime : 1));
-        float torque = move.x * -rotateSpeed * (useDeltaTime ? Time.deltaTime : 1);
+
+        float factor = (_state == State.LowPower || _state == State.VeryLowPower) ? 1.0f - lowPowerLossDebuff : 1.0f;
+        
+        Vector2 force = transform.right *  (factor * move.y * moveSpeed * (useDeltaTime ? Time.deltaTime : 1));
+        float torque = move.x * -rotateSpeed * factor * (useDeltaTime ? Time.deltaTime : 1);
         _rb.AddForce(force, ForceMode2D.Impulse);
         _rb.AddTorque(torque, ForceMode2D.Impulse);
         
@@ -64,6 +101,7 @@ public class Player : MonoBehaviour, IDamageable {
             _charge - (chargeLossRate * force.magnitude)
                     - (chargeLossRateRotation * Mathf.Abs(torque)),
             0f, maxCapacity);
+        
         OnChargeChanged?.Invoke(this, new OnChargeChangedEventArgs {
             NewCharge = _charge
         });

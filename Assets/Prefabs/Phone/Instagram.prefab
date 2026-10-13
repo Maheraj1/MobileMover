@@ -10,7 +10,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 911230284399042006, guid: 6f06c6b0168864aff8f05505646a69a0, type: 3}
       propertyPath: m_Name
-      value: Homepage
+      value: Instagram
       objectReference: {fileID: 0}
     - target: {fileID: 2002670596793134067, guid: 6f06c6b0168864aff8f05505646a69a0, type: 3}
       propertyPath: m_Pivot.x
@@ -91,6 +91,10 @@ PrefabInstance:
     - target: {fileID: 2002670596793134067, guid: 6f06c6b0168864aff8f05505646a69a0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4218543580715743631, guid: 6f06c6b0168864aff8f05505646a69a0, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
