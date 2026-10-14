@@ -18,7 +18,6 @@ public class InputManager : MonoBehaviour {
         }
 
         instance = this;
-        DontDestroyOnLoad(gameObject);
         _actions = new InputSystem_Actions();
         _actions.Player.Enable();
         _actions.Player.Move.started += MoveOnstarted_Handler;

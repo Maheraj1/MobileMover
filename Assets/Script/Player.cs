@@ -41,10 +41,12 @@ public class Player : MonoBehaviour, IDamageable {
     private float _charge = 100f;
 
     public enum State {
+        FullyCharged,
         Normal,     // 100 - 80 % battery
         LowPower,   // 20 - 10  % battery
         VeryLowPower// 10       % battery
     }
+
     private State _state = State.Normal;
 
     void Awake() {
@@ -57,7 +59,6 @@ public class Player : MonoBehaviour, IDamageable {
     }
     
     void Start() {
-        GameManager.Instance.RegisterPlayer(this);
         _rb = GetComponent<Rigidbody2D>();
         // InputManager.instance.OnMovePressed += InstanceOnOnMovePressed_Handler;
         InputManager.instance.OnFlashPressed += (sender, args) => {
@@ -138,6 +139,13 @@ public class Player : MonoBehaviour, IDamageable {
         OnChargeChanged?.Invoke(this, new OnChargeChangedEventArgs {
             NewCharge = _charge
         });
+        if (!Mathf.Approximately(_charge, maxCapacity))
+            return;
+        if (_state != State.FullyCharged) 
+            OnStateChanged?.Invoke(this, new OnStateChangedEventArgs {
+                state = State.FullyCharged
+            });
+        _state = State.FullyCharged;
     }
 
     public int GetHealth() {

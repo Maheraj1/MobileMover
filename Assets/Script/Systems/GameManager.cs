@@ -8,7 +8,6 @@ public class GameManager : MonoBehaviour {
     [SerializeField] private Transform lowPowerPrefab;
     [SerializeField] private float warningTime = 2.0f;
     
-    private Player _player;
     void Awake() {
         if (Instance != null) {
             Destroy(gameObject);
@@ -16,11 +15,10 @@ public class GameManager : MonoBehaviour {
         }
 
         Instance = this;
-        DontDestroyOnLoad(gameObject);
     }
     
     void Start() {
-        _player.OnStateChanged += OnStateChanged_Handler;
+        Player.Instance.OnStateChanged += OnStateChanged_Handler;
     }
 
     private void OnStateChanged_Handler(object sender, Player.OnStateChangedEventArgs e) {
@@ -34,11 +32,7 @@ public class GameManager : MonoBehaviour {
     }
 
     public Player GetPlayer() {
-        return _player;
-    }
-
-    public void RegisterPlayer(Player player) {
-        _player = player;
+        return Player.Instance;
     }
     
     private void DisplayLowPower() {

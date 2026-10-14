@@ -6,6 +6,5 @@ public class EndPoint : MonoBehaviour {
 
     private void Update() {
         Vector3 dir = transform.position - GameManager.Instance.GetPlayer().transform.position;
-        
     }
 }

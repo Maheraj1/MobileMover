@@ -82,7 +82,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 20
+  m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: -8486886170362276864, guid: 4fbacaae0da254eb58bd528169bbf74b, type: 3}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
@@ -170,3 +170,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Charger
   chargingSpeed: 0.1
+  nextLevel: -1
