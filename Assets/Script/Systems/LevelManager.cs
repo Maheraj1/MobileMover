@@ -7,6 +7,8 @@ public class LevelManager : MonoBehaviour {
     public static LevelManager Instance;
 
     [SerializeField] private string[] levels;
+    
+    private int _currentLevel = -1;
 
     void Awake() {
         if (Instance != null) {
@@ -19,6 +21,11 @@ public class LevelManager : MonoBehaviour {
     
     // changes level to specified 
     public void ChangeLevel(int index) {
+        if (index == -1) {
+            SceneManager.LoadScene(levels[_currentLevel], LoadSceneMode.Single);
+            return;
+        }
+        _currentLevel = index;
         SceneManager.LoadScene(levels[index], LoadSceneMode.Single);    
     }
 }

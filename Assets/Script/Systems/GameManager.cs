@@ -23,7 +23,7 @@ public class GameManager : MonoBehaviour {
 
     private void OnStateChanged_Handler(object sender, Player.OnStateChangedEventArgs e) {
         if (e.state == Player.State.LowPower) {
-            DisplayLowPower();
+            MessageDisplayManager.Instance.DisplayMessage("<color=#FFCC00>Low Power. Find charger!</color>");
         }
     }
 
@@ -34,10 +34,8 @@ public class GameManager : MonoBehaviour {
     public Player GetPlayer() {
         return Player.Instance;
     }
-    
-    private void DisplayLowPower() {
-        Transform go = Instantiate(lowPowerPrefab, warningPosition);
-        go.GetComponent<TextMeshProUGUI>().text = "Low Power. Find charger!";
-        Destroy(go.gameObject, warningTime);
+
+    public void Reset() {
+        LevelManager.Instance.ChangeLevel(-1);
     }
 }
