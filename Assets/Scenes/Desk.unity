@@ -1654,12 +1654,8 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7132097508532323220, guid: 6c22e88d8a2c649c590aa94f10e93397, type: 3}
-      propertyPath: moveSpeed
-      value: 100
-      objectReference: {fileID: 0}
-    - target: {fileID: 7132097508532323220, guid: 6c22e88d8a2c649c590aa94f10e93397, type: 3}
-      propertyPath: rotateSpeed
-      value: 80
+      propertyPath: chargeLossRateRotation
+      value: 0.005
       objectReference: {fileID: 0}
     - target: {fileID: 9194173676417821646, guid: 6c22e88d8a2c649c590aa94f10e93397, type: 3}
       propertyPath: m_AnchoredPosition.x
