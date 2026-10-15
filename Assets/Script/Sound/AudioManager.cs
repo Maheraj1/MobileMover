@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using UnityEngine;
 
@@ -8,12 +9,24 @@ public class AudioManager : MonoBehaviour {
     private int _playingID = 0;
     void Awake() {
         if (instance != null) {
-            Destroy(this);
+            Destroy(gameObject);
+            return;
         }
 
         instance = this;
         DontDestroyOnLoad(gameObject);
         _source = GetComponent<AudioSource>();
+    }
+
+    private void Start() {
+        _source.clip = bgClip;
+        _source.Play();
+    }
+
+    public void Clear() {
+        _source.clip = bgClip;
+        _source.Play();
+        _playingID = 0;
     }
 
     public void PlayAudio(AudioClip audioClip) {

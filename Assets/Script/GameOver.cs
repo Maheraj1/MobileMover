@@ -10,9 +10,11 @@ public class GameOver : MonoBehaviour {
 
     public void ToMainMenu() {
         SceneManager.LoadScene(0);
+        AudioManager.instance.Clear();
     }
 
     public void Reset() {
         LevelManager.Instance.ChangeLevel(-1);
+        AudioManager.instance.Clear();
     }
 }
