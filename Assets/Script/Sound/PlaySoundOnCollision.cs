@@ -4,7 +4,7 @@ public class PlaySoundOnCollision : MonoBehaviour {
     [SerializeField] private AudioClip audioClip;
     [SerializeField] private LayerMask layer;
 
-    void OnCollisionEnter(Collision collision) {
+    void OnCollisionEnter2D(Collision2D collision) {
         if (collision.gameObject.layer == layer) {
             var go = new GameObject();
             go.transform.position = collision.contacts[0].point;

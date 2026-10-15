@@ -1,6 +1,7 @@
 using System;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour, IDamageable {
     public static Player Instance;
@@ -104,7 +105,10 @@ public class Player : MonoBehaviour, IDamageable {
     }
 
     private void AddMovementForce(Vector2 move, bool useDeltaTime = false) {
-        if (_charge <= 0f) return;
+        if (_charge <= 0f) {
+            SceneManager.LoadScene(3, LoadSceneMode.Single);
+            return;
+        }
 
         float factor = (_state == State.LowPower || _state == State.VeryLowPower) ? 1.0f - lowPowerLossDebuff : 1.0f;
         
@@ -160,4 +164,7 @@ public class Player : MonoBehaviour, IDamageable {
     public float MaxCharge() {
         return maxCapacity;
     }
+    
+    
+    
 }
