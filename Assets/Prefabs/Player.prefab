@@ -35,6 +35,7 @@ Transform:
   m_Children:
   - {fileID: 4195752919187786407}
   - {fileID: 7332319450591978404}
+  - {fileID: 465454963185403523}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!61 &8176636503587744180
@@ -122,7 +123,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5118eb4c5a624434939c3cad86d0409, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Player
-  flashLight: {fileID: 0}
+  flashLight: {fileID: 3818937130983977691}
   moveSpeed: 60
   rotateSpeed: 20
   maxCapacity: 100
@@ -142,10 +143,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b91d4493fbd04fe2a41ed72f118c137, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlaySoundOnCollision
-  audioClip: {fileID: 0}
+  audioClip: {fileID: 8300000, guid: 6b9c0238cf2774b2c85f7f02f71629c5, type: 3}
   layer:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 1
 --- !u!1 &2224846119599251635
 GameObject:
   m_ObjectHideFlags: 0
@@ -278,6 +279,90 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!1 &3818937130983977691
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 465454963185403523}
+  - component: {fileID: 7175557749686094530}
+  m_Layer: 3
+  m_Name: Spot Light 2D
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &465454963185403523
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3818937130983977691}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: 3.68, y: -0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4108344326507380797}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
+--- !u!114 &7175557749686094530
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3818937130983977691}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 073797afb82c5a1438f328866b10b3f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.Universal.2D.Runtime::UnityEngine.Rendering.Universal.Light2D
+  m_ComponentVersion: 3
+  m_LightType: 3
+  m_BlendStyleIndex: 0
+  m_FalloffIntensity: 0.5
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Intensity: 10
+  m_LightVolumeIntensity: 1
+  m_LightVolumeEnabled: 0
+  m_ApplyToSortingLayers: 00000000
+  m_LightCookieSprite: {fileID: 0}
+  m_DeprecatedPointLightCookieSprite: {fileID: 0}
+  m_LightOrder: 0
+  m_AlphaBlendOnOverlap: 0
+  m_OverlapOperation: 0
+  m_NormalMapDistance: 3
+  m_NormalMapQuality: 2
+  m_UseNormalMap: 0
+  m_ShadowsEnabled: 1
+  m_ShadowIntensity: 0.75
+  m_ShadowSoftness: 0.3
+  m_ShadowSoftnessFalloffIntensity: 0.5
+  m_ShadowVolumeIntensityEnabled: 0
+  m_ShadowVolumeIntensity: 0.75
+  m_LocalBounds:
+    m_Center: {x: 0, y: -0.00000011920929, z: 0}
+    m_Extent: {x: 0.9985302, y: 0.99853027, z: 0}
+  m_PointLightInnerAngle: 164.59
+  m_PointLightOuterAngle: 164.59
+  m_PointLightInnerRadius: 0
+  m_PointLightOuterRadius: 5.720517
+  m_ShapeLightParametricSides: 5
+  m_ShapeLightParametricAngleOffset: 0
+  m_ShapeLightParametricRadius: 1
+  m_ShapeLightFalloffSize: 0.5
+  m_ShapeLightFalloffOffset: {x: 0, y: 0}
+  m_ShapePath:
+  - {x: -0.5, y: -0.5, z: 0}
+  - {x: 0.5, y: -0.5, z: 0}
+  - {x: 0.5, y: 0.5, z: 0}
+  - {x: -0.5, y: 0.5, z: 0}
 --- !u!1 &3949853011190662935
 GameObject:
   m_ObjectHideFlags: 0
@@ -428,8 +513,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::MobilePhone
   sounds:
   - {fileID: 8300000, guid: 969302293a22f42918689fe8497ad1a8, type: 3}
+  - {fileID: 8300000, guid: 305b80105cb3a4327ae4481b860d6927, type: 3}
   - {fileID: 8300000, guid: 7c6acee093ded4944b731a1d7403b4db, type: 3}
+  - {fileID: 8300000, guid: 6b9c0238cf2774b2c85f7f02f71629c5, type: 3}
   - {fileID: 8300000, guid: c86239ddecdc143a2a8bb7ef89b9dcf5, type: 3}
+  - {fileID: 8300000, guid: 50d96c107c8724bf29be82bacbe08116, type: 3}
 --- !u!1 &6533042220650837952
 GameObject:
   m_ObjectHideFlags: 0

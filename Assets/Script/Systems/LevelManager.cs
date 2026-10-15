@@ -7,6 +7,7 @@ public class LevelManager : MonoBehaviour {
     public static LevelManager Instance;
 
     [SerializeField] private string[] levels;
+    [SerializeField] private AudioClip resetAudio;
     
     private int _currentLevel = -1;
 
@@ -23,6 +24,7 @@ public class LevelManager : MonoBehaviour {
     public void ChangeLevel(int index) {
         if (index == -1) {
             SceneManager.LoadScene(levels[_currentLevel], LoadSceneMode.Single);
+            AudioManager.instance.PlayAudio(resetAudio);
             return;
         }
         _currentLevel = index;

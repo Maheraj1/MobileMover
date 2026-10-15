@@ -16,12 +16,7 @@ public class MobilePhone : MonoBehaviour {
     }
 
     public void PlaySound() {
-        var go = new GameObject();
-        var audio_s = go.AddComponent<AudioSource>();
-        audio_s.volume = GameManager.Instance.GetVolume();
-        audio_s.clip = sounds[_currAudioIndex];
-        Destroy(go, sounds[_currAudioIndex].length);
-
+        AudioManager.instance.PlayAudio(sounds[_currAudioIndex]);
         _currAudioIndex++;
         if (_currAudioIndex >= sounds.Length) {
             _currAudioIndex = 0;
