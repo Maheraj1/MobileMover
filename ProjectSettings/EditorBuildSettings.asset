@@ -14,6 +14,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Kitchen.unity
     guid: 4830e4b7c957bc3498adaebdf63182c3
+  - enabled: 1
+    path: Assets/Scenes/GameOver.unity
+    guid: 5c0d1eaf2e9f0444a9755fda07752d08
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

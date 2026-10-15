@@ -225,7 +225,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1161ec853dd67463f9c7e2e88aeff1d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameOver
-  audioClip: {fileID: 0}
+  audioClip: {fileID: 8300000, guid: 50d96c107c8724bf29be82bacbe08116, type: 3}
 --- !u!114 &331373256
 MonoBehaviour:
   m_ObjectHideFlags: 0
