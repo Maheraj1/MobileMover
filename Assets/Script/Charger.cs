@@ -12,6 +12,7 @@ public class Charger : MonoBehaviour {
         Player.Instance.OnStateChanged += (sender, args) => {
             if (args.state == Player.State.FullyCharged && nextLevel != -1)
                 LevelManager.Instance.ChangeLevel(nextLevel);
+            
         };
     }
 

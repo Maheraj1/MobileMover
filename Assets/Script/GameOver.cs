@@ -1,5 +1,6 @@
 using System;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameOver : MonoBehaviour {
     [SerializeField] AudioClip audioClip;
@@ -8,7 +9,7 @@ public class GameOver : MonoBehaviour {
     }
 
     public void ToMainMenu() {
-        LevelManager.Instance.ChangeLevel(0);
+        SceneManager.LoadScene(0);
     }
 
     public void Reset() {
