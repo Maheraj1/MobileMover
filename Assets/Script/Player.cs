@@ -11,6 +11,7 @@ public class Player : MonoBehaviour, IDamageable {
 
     public class OnStateChangedEventArgs : EventArgs {
         public State state;
+        public State prevState;
     }
 
     public class OnChargeChangedEventArgs : EventArgs {
@@ -75,21 +76,24 @@ public class Player : MonoBehaviour, IDamageable {
         switch (_charge) {
             case > 20: {
                 if (_state != State.Normal) OnStateChanged?.Invoke(this, new OnStateChangedEventArgs {
-                    state = State.Normal
+                    state = State.Normal,
+                    prevState = _state
                 });
                 _state = State.Normal;
                 break;
             }
             case <= 10: {
                 if (_state != State.VeryLowPower) OnStateChanged?.Invoke(this, new OnStateChangedEventArgs {
-                    state = State.VeryLowPower
+                    state = State.VeryLowPower,
+                    prevState = _state
                 });
                 _state = State.VeryLowPower;
                 break;
             }
             default: {
                 if (_state != State.LowPower) OnStateChanged?.Invoke(this, new OnStateChangedEventArgs {
-                    state = State.LowPower
+                    state = State.LowPower,
+                    prevState = _state
                 });
                 _state = State.LowPower;
                 break;
@@ -143,7 +147,8 @@ public class Player : MonoBehaviour, IDamageable {
             return;
         if (_state != State.FullyCharged) 
             OnStateChanged?.Invoke(this, new OnStateChangedEventArgs {
-                state = State.FullyCharged
+                state = State.FullyCharged,
+                prevState = _state
             });
         _state = State.FullyCharged;
     }

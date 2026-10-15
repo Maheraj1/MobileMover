@@ -8,7 +8,9 @@ public class PlaySoundOnCollision : MonoBehaviour {
         if (collision.gameObject.layer == layer) {
             var go = new GameObject();
             go.transform.position = collision.contacts[0].point;
-            go.AddComponent<AudioSource>().clip = audioClip;
+            var _audio = go.AddComponent<AudioSource>();
+            _audio.clip = audioClip;
+            _audio.volume = GameManager.Instance.GetVolume();
             Destroy(go, audioClip.length);
         }
     }

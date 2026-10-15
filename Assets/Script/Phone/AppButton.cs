@@ -7,7 +7,7 @@ public class AppButton : MonoBehaviour {
     [SerializeField] private Button button;
     void Start() {
         button.onClick.AddListener(() => {
-            MobilePhone.Instance.SwitchApp(app.Id);
+            //MobilePhone.Instance.SwitchApp(app.Id);
         });
     }
 }
