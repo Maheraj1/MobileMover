@@ -1833,6 +1833,10 @@ PrefabInstance:
       value: Charger
       objectReference: {fileID: 0}
     - target: {fileID: 4250078402715614871, guid: 3502efa6748a44054bdc7da359e837a9, type: 3}
+      propertyPath: final
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4250078402715614871, guid: 3502efa6748a44054bdc7da359e837a9, type: 3}
       propertyPath: chargingSpeed
       value: 10
       objectReference: {fileID: 0}
@@ -2410,7 +2414,7 @@ Transform:
   m_GameObject: {fileID: 1569195189}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.71, y: -0.45, z: 0}
+  m_LocalPosition: {x: -7, y: -0.45, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3372,9 +3376,9 @@ Transform:
   m_GameObject: {fileID: 1886206891}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 26.3, y: -35.4, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalPosition: {x: 55.2, y: -44.8, z: 0}
+  m_LocalScale: {x: 1.6, y: 1.6, z: 1.6}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 2026669918}
   - {fileID: 1430701741}

@@ -17,6 +17,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/GameOver.unity
     guid: 5c0d1eaf2e9f0444a9755fda07752d08
+  - enabled: 1
+    path: Assets/Scenes/Victory.unity
+    guid: 0ccef08a8416cf24481430689ceb5797
+  - enabled: 1
+    path: Assets/Scenes/PauseMenu.unity
+    guid: c6f7f902db2ac0443a44b073a5e98703
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

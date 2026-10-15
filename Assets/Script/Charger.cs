@@ -1,18 +1,23 @@
 using System;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Charger : MonoBehaviour {
     [Tooltip("How fast does the charger charge in %/s")]
     [SerializeField] private float chargingSpeed;
     [Tooltip("Index of the level that will be loaded next in Level Manager (-1 for don't change)")]
     [SerializeField] private int nextLevel = -1;
+
+    [SerializeField] private bool final = false;
     bool _isCharging = false;
 
     private void Start() {
         Player.Instance.OnStateChanged += (sender, args) => {
             if (args.state == Player.State.FullyCharged && nextLevel != -1)
                 LevelManager.Instance.ChangeLevel(nextLevel);
-            
+            if (args.state == Player.State.FullyCharged && final) {
+                SceneManager.LoadScene(4);
+            }
         };
     }
 
